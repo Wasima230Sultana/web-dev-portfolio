@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 0;
-}
+} */
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -19,7 +19,7 @@
 }
 nav{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     margin: 50px 200px;
 }
@@ -49,10 +49,12 @@ align-items: center;
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin :0 35px 0 200px
 }
 .banner-content{
 max-width: 580px;
+
 }
 .banner-greetings{
     font-size: 45px;
