@@ -49,15 +49,14 @@ align-items: center;
 .banner{
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 250px;
+    margin :0 35px 0 200px
 }
 .banner-content{
 max-width: 580px;
 }
 .banner-greetings{
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .banner-title{
     font-weight: bold;
@@ -67,4 +66,7 @@ max-width: 580px;
     width: 580px;
 }
 .header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
