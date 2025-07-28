@@ -199,3 +199,13 @@ footer textarea {
     margin-bottom: 24px;
     border: none;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+   .skills-container {
+    flex-direction: column;
+} 
+}
